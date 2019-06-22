@@ -33,19 +33,19 @@ LANGZI\_SRC\_安全巡航 是一款集成漏扫，验证，资产监控，自动
 实验使用16个线程，在全部启动并发情况下资源消耗
 
 
-![](/image/1.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/1.png)
 
 # 主扫描表
 
 再开启子域名监控的条件下，通过爆破，搜索引擎获取，以及网页爬行。三种方式不间断的获取domains.txt其下受监控的子域名，保存在主扫描表
 
-![](/image/2.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/2.png)
 
 # 持续性WEB资产获取
 
 在保存网址表中，保存着通过爬行获取到所有的友链数据，包括网址，标题，使用语言，服务器类型，网页内容。
 
-![](/image/4.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/4.png)
 
 等到数据量庞大起来后，可以做批量的数据采集调用，比如
 
@@ -53,26 +53,26 @@ LANGZI\_SRC\_安全巡航 是一款集成漏扫，验证，资产监控，自动
 	select * from sec_urls where url like '%.qq.%',
 	select * from sec_urls where content like '%后台管理系统%',
 
-![](/image/6.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/6.png)
 
 # 超链接获取
 
 在超链接表保存着网址的超链接也静态链接，其中静态链接可以使用sqlmap尝试伪静态注入，其他的可以尝试进行不同漏洞检测
 
-![](/image/3.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/3.png)
 
 
 # 报表自动化
 
 在漏扫中填写报告也是个体力活，于是尝试实现了自动化实现，虽然被人骂懒死，但是确实挺方便的。
 
-![](/image/7.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/7.png)
 
-![](/image/8.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/8.png)
 
-![](/image/9.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/9.png)
 
-![](/image/10.png)
+![](/Langzi_SRC_Safe_Cruise_0.97/help/image/10.png)
 
 # 配置文件
 
